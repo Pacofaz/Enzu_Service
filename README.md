@@ -1,3 +1,85 @@
+# Git und GitHub Nachschlagwerk
+
+## Einleitung
+Diese Datei fasst die Grundlagen und Befehle zusammen, die man im Unterricht besprochen hat und dient perfekt als Nachschlagwerk für spätere Arbeiten mit Git oder GitHub.
+
+## Was ist Git und GitHub?
+
+**Git:**
+Git ist ein Werkzeug, welches lokal auf dem eigenen Rechner läuft und einem hilft, verschiedene Versionen der Arbeit (z.B. Code oder Textdateien) zu verwalten. Mit sogenannten "Commits" entscheidet man selbst, wann man welche Änderung speichert. So kann man jederzeit zu früheren Versionen zurückspringen, Änderungen nachvollziehen oder Fehler rückgängig machen.
+
+**GitHub:**
+GitHub ist im Gegensatz zu Git nicht lokal, sondern eine Online-Plattform, die wie eine Cloud funktioniert. Dort kann man die Änderungen hochladen und so mit anderen zusammenarbeiten. Alle Dateien, unabhängig von der Version, sind somit online verfügbar. Das ist vor allem praktisch, wenn man in Teams arbeitet. Dann kann man Änderungen sehen, Fehler melden und vieles mehr.
+
+**Merksatz:**
+Git ist ein Werkzeug, mit dem man Änderungen speichert.  
+GitHub ist der Ort, mit dem man Änderungen mit anderen teilen kann.
+
+## Was sind Git-Ebenen?
+
+Git ist in drei Ebenen unterteilt, durch die Dateien wandern, wenn man mit Git arbeitet:
+
+1. **Working Directory:**  
+   Hier arbeitet man direkt an den Dateien. Alle Änderungen entstehen hier.
+
+2. **Staging Area:**  
+   Eine Art Zwischenablage. Hier gibt man Git an, welche Änderungen man speichern will.
+
+3. **Lokales Repository:**  
+   Hier landen alle Änderungen dauerhaft, falls ein Commit vorliegt.
+
+**Beispiel:**  
+Man kann sich diese Ebenen wie einen Schreibtisch vorstellen:  
+- Das Working Directory ist der Schreibtisch, an dem man Hausaufgaben erledigt.
+- Die Staging Area ist eine Mappe, in die fertige Blätter gelegt werden.
+- Das Lokale Repository ist ein Ordner, in den man die Mappe abheftet – so ist alles gespeichert und man kann organisiert auf alte Blätter zurückgreifen.
+
+## Wichtige Git-Befehle einfach erklärt
+
+### git init
+Mit `git init` erstellt man ein neues Git-Repository. Das ist wie das Starten eines neuen Projekts.
+```
+git init
+```
+
+
+### git status
+```
+git status
+```
+
+### git add
+Mit `git add` fügt man Änderungen zur Staging Area hinzu.
+- Einzelne Datei:
+  ```
+  git add datei.txt
+  ```
+- Alle Änderungen:
+  ```
+  git add .
+  ```
+
+### git commit
+Mit `git commit` speichert man die Änderungen dauerhaft im lokalen Repository und schreibt eine Nachricht dazu.
+```
+git commit -m "Meine Änderungen erklärt"
+```
+- Mehrere Dateien mit einer Nachricht:
+  ```
+  git commit -a -m "Alle Änderungen speichern"
+  ```
+
+### git log
+Mit `git log` sieht man alle Commits, die gemacht wurden.
+```
+git log
+```
+- Kurze Übersicht:
+  ```
+  git log --oneline
+  ```
+
+=======
 # Enzu_Service
 ### git push
 Mit `git push` schickt man Änderungen vom lokalen Repository zu GitHub.
