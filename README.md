@@ -17,3 +17,13 @@ Mit `git clone` kopiert man ein Projekt von GitHub auf den eigenen Rechner.
 ```
 git clone https://github.com/benutzername/projektname.git
 ```
+
+### git branch
+Mit `git branch` erstellt man neue Zweige (Branches).
+```
+git branch neuerZweig
+```
+- Alle Branches anzeigen:
+  ```
+  git branch
+  ```
