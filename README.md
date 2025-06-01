@@ -83,3 +83,14 @@ Ein typischer Workflow könnte folgendermaßen aussehen:
 - Man sollte klare und informative Commit-Nachrichten schreiben, damit man später leichter nachvollziehen kann, was geändert wurde.
 - Man sollte Branches verwenden, um parallel an verschiedenen Funktionen oder Features arbeiten zu können, ohne andere zu stören.
 - Regelmäßige Kommunikation mit Teammitgliedern ist wichtig, um Konflikte frühzeitig zu vermeiden.
+
+## Weitere wichtige Git-Befehle (fortgeschritten)
+
+### git rebase
+Mit `git rebase` integriert man Änderungen eines Branches neu in einen anderen Branch. So bleibt die Projektgeschichte übersichtlicher und linear.
+
+### git cherry-pick
+Mit `git cherry-pick` übernimmt man einen bestimmten Commit aus einem anderen Branch und fügt ihn im aktuellen Branch ein. Es wird nur dieser eine Commit eingefügt, nicht der ganze Branch.
+
+### .gitignore
+Die Datei `.gitignore` legt fest, welche Dateien oder Ordner Git ignorieren soll. Diese Dateien werden dann nicht ins Repository übernommen.
