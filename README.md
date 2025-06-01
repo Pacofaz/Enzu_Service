@@ -54,3 +54,9 @@ Mit `git reset` setzt man Änderungen zurück oder löscht sie komplett.
   ```
   git reset --hard HEAD~1
   ```
+
+### git revert
+Mit `git revert` macht man einen vorherigen Commit rückgängig (erstellt einen neuen Commit, der diese Änderung zurücknimmt).
+```
+git revert <Commit-ID>
+```
