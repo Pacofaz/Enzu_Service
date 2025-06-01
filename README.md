@@ -60,3 +60,10 @@ Mit `git revert` macht man einen vorherigen Commit rückgängig (erstellt einen 
 ```
 git revert <Commit-ID>
 ```
+
+## Merge-Konflikte – Was tun?
+Ein Merge-Konflikt passiert, wenn zwei Personen gleichzeitig an derselben Stelle in einer Datei etwas ändern und diese Änderungen zusammengeführt werden sollen. Dann weiß Git nicht, welche Änderung übernommen werden soll.
+
+**Wie merkt man, dass es einen Merge-Konflikt gibt?**
+- Wenn man z.B. mit `git merge` oder `git pull` arbeitet, meldet Git einen Konflikt und bricht das Zusammenführen ab.
+- In der betroffenen Datei tauchen Markierungen wie `<<<<<<<`, `=======` und `>>>>>>>` auf. Damit zeigt Git die verschiedenen Versionen an.
