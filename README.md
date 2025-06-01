@@ -67,3 +67,19 @@ Ein Merge-Konflikt passiert, wenn zwei Personen gleichzeitig an derselben Stelle
 **Wie merkt man, dass es einen Merge-Konflikt gibt?**
 - Wenn man z.B. mit `git merge` oder `git pull` arbeitet, meldet Git einen Konflikt und bricht das Zusammenführen ab.
 - In der betroffenen Datei tauchen Markierungen wie `<<<<<<<`, `=======` und `>>>>>>>` auf. Damit zeigt Git die verschiedenen Versionen an.
+
+## Beispiel eines Workflows: Lokal und Remote
+Ein typischer Workflow könnte folgendermaßen aussehen:
+- Man erstellt lokal auf dem eigenen Computer ein Repository.
+- Man bearbeitet Dateien lokal und speichert Änderungen mit Commits.
+- Man überprüft den Status regelmäßig mit `git status`.
+- Wenn man zufrieden ist, lädt man die Commits mit `git push` auf das Remote-Repository bei GitHub hoch.
+- Wenn andere etwas hochgeladen haben, lädt man deren Änderungen mit `git pull` herunter, um auf dem neuesten Stand zu sein.
+- Falls es Konflikte gibt, behebt man diese zuerst lokal, macht anschließend einen neuen Commit und lädt ihn wieder hoch.
+
+## Tipps, was man in der Zusammenarbeit mit Git gelernt hat
+- Am besten redet man im Team regelmäßig miteinander, damit solche Merge Konflikte gar nicht erst entstehen.
+- Man sollte regelmäßig Commits erstellen, um den Fortschritt übersichtlich zu speichern.
+- Man sollte klare und informative Commit-Nachrichten schreiben, damit man später leichter nachvollziehen kann, was geändert wurde.
+- Man sollte Branches verwenden, um parallel an verschiedenen Funktionen oder Features arbeiten zu können, ohne andere zu stören.
+- Regelmäßige Kommunikation mit Teammitgliedern ist wichtig, um Konflikte frühzeitig zu vermeiden.
