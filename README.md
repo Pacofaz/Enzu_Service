@@ -22,3 +22,6 @@ Git ist in drei Ebenen unterteilt, durch die Dateien wandern, wenn man mit Git a
 1. **Working Directory:**  
    Hier arbeitet man direkt an den Dateien. Alle Änderungen entstehen hier.
 
+2. **Staging Area:**  
+   Eine Art Zwischenablage. Hier gibt man Git an, welche Änderungen man speichern will.
+
