@@ -11,3 +11,7 @@ Git ist ein Werkzeug, welches lokal auf dem eigenen Rechner läuft und einem hil
 **GitHub:**
 GitHub ist im Gegensatz zu Git nicht lokal, sondern eine Online-Plattform, die wie eine Cloud funktioniert. Dort kann man die Änderungen hochladen und so mit anderen zusammenarbeiten. Alle Dateien, unabhängig von der Version, sind somit online verfügbar. Das ist vor allem praktisch, wenn man in Teams arbeitet. Dann kann man Änderungen sehen, Fehler melden und vieles mehr.
 
+**Merksatz:**
+Git ist ein Werkzeug, mit dem man Änderungen speichert.  
+GitHub ist der Ort, mit dem man Änderungen mit anderen teilen kann.
+
