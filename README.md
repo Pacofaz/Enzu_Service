@@ -15,3 +15,7 @@ GitHub ist im Gegensatz zu Git nicht lokal, sondern eine Online-Plattform, die w
 Git ist ein Werkzeug, mit dem man Änderungen speichert.  
 GitHub ist der Ort, mit dem man Änderungen mit anderen teilen kann.
 
+## Was sind Git-Ebenen?
+
+Git ist in drei Ebenen unterteilt, durch die Dateien wandern, wenn man mit Git arbeitet:
+
