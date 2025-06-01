@@ -79,8 +79,6 @@ git log
   git log --oneline
   ```
 
-=======
-# Enzu_Service
 ### git push
 Mit `git push` schickt man Änderungen vom lokalen Repository zu GitHub.
 ```
