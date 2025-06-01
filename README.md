@@ -37,3 +37,9 @@ git checkout neuerZweig
   ```
   git checkout -b neuerZweig
   ```
+
+### git merge
+Mit `git merge` verbindet man Änderungen aus einem Branch mit einem anderen.
+```
+git merge neuerZweig
+```
