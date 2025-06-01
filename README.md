@@ -27,3 +27,13 @@ git branch neuerZweig
   ```
   git branch
   ```
+
+### git checkout
+Mit `git checkout` wechselt man zwischen Zweigen oder Versionen.
+```
+git checkout neuerZweig
+```
+- Neuen Branch erstellen und direkt wechseln:
+  ```
+  git checkout -b neuerZweig
+  ```
