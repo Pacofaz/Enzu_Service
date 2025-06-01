@@ -157,7 +157,7 @@ Ein typischer Workflow könnte folgendermaßen aussehen:
 - Wenn andere etwas hochgeladen haben, lädt man deren Änderungen mit `git pull` herunter, um auf dem neuesten Stand zu sein.
 - Falls es Konflikte gibt, behebt man diese zuerst lokal, macht anschließend einen neuen Commit und lädt ihn wieder hoch.
 
-## Tipps, was man in der Zusammenarbeit mit Git gelernt hat
+## Tipps, was wir in der Zusammenarbeit mit Git gelernt hat
 - Am besten redet man im Team regelmäßig miteinander, damit solche Merge Konflikte gar nicht erst entstehen.
 - Man sollte regelmäßig Commits erstellen, um den Fortschritt übersichtlich zu speichern.
 - Man sollte klare und informative Commit-Nachrichten schreiben, damit man später leichter nachvollziehen kann, was geändert wurde.
