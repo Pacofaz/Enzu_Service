@@ -19,3 +19,6 @@ GitHub ist der Ort, mit dem man Änderungen mit anderen teilen kann.
 
 Git ist in drei Ebenen unterteilt, durch die Dateien wandern, wenn man mit Git arbeitet:
 
+1. **Working Directory:**  
+   Hier arbeitet man direkt an den Dateien. Alle Änderungen entstehen hier.
+
