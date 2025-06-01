@@ -28,3 +28,9 @@ Git ist in drei Ebenen unterteilt, durch die Dateien wandern, wenn man mit Git a
 3. **Lokales Repository:**  
    Hier landen alle Änderungen dauerhaft, falls ein Commit vorliegt.
 
+**Beispiel:**  
+Man kann sich diese Ebenen wie einen Schreibtisch vorstellen:  
+- Das Working Directory ist der Schreibtisch, an dem man Hausaufgaben erledigt.
+- Die Staging Area ist eine Mappe, in die fertige Blätter gelegt werden.
+- Das Lokale Repository ist ein Ordner, in den man die Mappe abheftet – so ist alles gespeichert und man kann organisiert auf alte Blätter zurückgreifen.
+
