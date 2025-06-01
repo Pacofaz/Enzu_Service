@@ -34,3 +34,48 @@ Man kann sich diese Ebenen wie einen Schreibtisch vorstellen:
 - Die Staging Area ist eine Mappe, in die fertige Blätter gelegt werden.
 - Das Lokale Repository ist ein Ordner, in den man die Mappe abheftet – so ist alles gespeichert und man kann organisiert auf alte Blätter zurückgreifen.
 
+## Wichtige Git-Befehle einfach erklärt
+
+### git init
+Mit `git init` erstellt man ein neues Git-Repository. Das ist wie das Starten eines neuen Projekts.
+```
+git init
+```
+
+
+### git status
+```
+git status
+```
+
+### git add
+Mit `git add` fügt man Änderungen zur Staging Area hinzu.
+- Einzelne Datei:
+  ```
+  git add datei.txt
+  ```
+- Alle Änderungen:
+  ```
+  git add .
+  ```
+
+### git commit
+Mit `git commit` speichert man die Änderungen dauerhaft im lokalen Repository und schreibt eine Nachricht dazu.
+```
+git commit -m "Meine Änderungen erklärt"
+```
+- Mehrere Dateien mit einer Nachricht:
+  ```
+  git commit -a -m "Alle Änderungen speichern"
+  ```
+
+### git log
+Mit `git log` sieht man alle Commits, die gemacht wurden.
+```
+git log
+```
+- Kurze Übersicht:
+  ```
+  git log --oneline
+  ```
+
