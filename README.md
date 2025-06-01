@@ -43,3 +43,14 @@ Mit `git merge` verbindet man Änderungen aus einem Branch mit einem anderen.
 ```
 git merge neuerZweig
 ```
+
+### git reset
+Mit `git reset` setzt man Änderungen zurück oder löscht sie komplett.
+- Änderungen zurücksetzen, aber behalten:
+  ```
+  git reset --soft HEAD~1
+  ```
+- Änderungen komplett löschen:
+  ```
+  git reset --hard HEAD~1
+  ```
