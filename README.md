@@ -177,3 +177,6 @@ Ein typischer Workflow könnte folgendermaßen aussehen:
 - Man sollte klare und informative Commit-Nachrichten schreiben, damit man später leichter nachvollziehen kann, was geändert wurde.
 - Man sollte Branches verwenden, um parallel an verschiedenen Funktionen oder Features arbeiten zu können, ohne andere zu stören.
 - Regelmäßige Kommunikation mit Teammitgliedern ist wichtig, um Konflikte frühzeitig zu vermeiden.
+
+## Beispielspiel: Zombie.io Mini Game
+Im Ordner `zombie-game` befindet sich ein kleines Browser-Spiel. Zum Starten einfach die `index.html` in einem aktuellen Browser öffnen.
