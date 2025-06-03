@@ -1,6 +1,15 @@
 # Zombie.io Mini Game
 
-Dies ist ein kleines Browser-Spiel inspiriert von Zombie.io. Der Spieler bewegt sich mit WASD oder den Pfeiltasten und schießt mit der Leertaste auf Zombies. Trifft ein Zombie den Spieler, verliert dieser ein Leben. Nach drei Treffern ist das Spiel vorbei.
+In diesem einfachen Browser-Spiel sammelst du tagsüber Holz und Stein, baust daraus ein kleines Haus und verteidigst es nachts gegen Zombies.
+
+## Steuerung
+
+- Bewegung mit WASD oder den Pfeiltasten
+- Leertaste: Schießen
+- **B**: Haus bauen (benötigt 5 Holz und 5 Stein)
+- **V**: Verteidigung aufstellen (3 Holz, 2 Stein)
+
+Tagsüber erscheinen Ressourcen auf dem Spielfeld, nachts greifen Zombies an. Stirbt der Spieler oder wird das Haus zerstört, ist das Spiel vorbei.
 
 ## Spiel starten
 
